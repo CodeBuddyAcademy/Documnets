@@ -19,14 +19,10 @@ sudo systemctl is-enabled postgresql
 sudo systemctl status postgresql
 ```
 
-![alt text](image.png)
-
 Also, confirm that the Postgresql server is ready to accept connections from clients as follows:
 ```$
 sudo pg_isready
 ```
-
-![alt text](image-1.png)
 
 ## Creating Database in PostgreSQL
 To create a new database in PostgreSQL, you need to access the PostgreSQL database shell (psql) program. First, switch to the postgres system user account and run the psql command as follows:
@@ -43,4 +39,3 @@ postgres=# CREATE DATABASE tecmintdb;
 postgres=# GRANT ALL PRIVILEGES ON DATABASE tecmintdb to tecmint;
 postgres=# \q
 ```
-![alt text](image-2.png)
