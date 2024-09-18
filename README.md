@@ -43,7 +43,7 @@ Apply Permissions to Newly Created Tables
 ```
 
 ## Apply Permissions to Newly Created Tables
-### The commands above only affect existing tables. To apply permissions to tables created in the future, use the following:
+The commands above only affect existing tables. To apply permissions to tables created in the future, use the following:
 
 ```sql
 ALTER DEFAULT PRIVILEGES
