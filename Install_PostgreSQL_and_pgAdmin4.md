@@ -39,3 +39,18 @@ postgres=# CREATE DATABASE tecmintdb;
 postgres=# GRANT ALL PRIVILEGES ON DATABASE tecmintdb to tecmint;
 postgres=# \q
 ```
+
+# Installing pgAdmin4 in Ubuntu
+pgAdmin4 is not available in the Ubuntu repositories. We need to install it from the pgAdmin4 APT repository. Start by setting up the repository. Add the public key for the repository and create the repository configuration file.
+
+```$
+curl https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo apt-key add
+sudo sh -c 'echo "deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_release -cs) pgadmin4 main" > /etc/apt/sources.list.d/pgadmin4.list && apt update'
+```
+
+Then install pgAdmin4,
+```$
+sudo apt install pgadmin4
+```
+
+The above command will install numerous required packages including Apache2 webserver to serve the pgadmin4-web application in web mode.
