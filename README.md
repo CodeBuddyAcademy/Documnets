@@ -5,7 +5,9 @@ This guide provides common PostgreSQL commands to grant various levels of access
 ## 1. Grant CONNECT to the Database
 ```sql
 GRANT CONNECT ON DATABASE database_name TO username;
-2. Grant USAGE on Schema
+```
+
+## 2. Grant USAGE on Schema
 sql
 Copy code
 GRANT USAGE ON SCHEMA schema_name TO username;
