@@ -1,8 +1,8 @@
 # Project Direcotory
 /myproject 
--- app.py 
--- requirements.txt 
--- Dockerfile
+* app.py
+* requirements.txt
+* Dockerfile
 
 # 1. Create the Dockerfile
 Here's an example Dockerfile for a simple Python application:
