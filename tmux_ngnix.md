@@ -55,8 +55,8 @@ tmux kill-session -t mysession
 
 # 9. Basic tmux Commands
 Here are some helpful basic commands for working with ```tmux```:
-~ Split Window Horizontally: Ctrl + B, then %
-~ Split Window Vertically: Ctrl + B, then "
-~ Switch Between Panes: Ctrl + B, then use arrow keys
-~ Resize Pane: Hold Ctrl + B, then hold Ctrl and use arrow keys
-~ Close Pane: Type exit in the pane or press Ctrl + D
+- Split Window Horizontally: Ctrl + B, then %
+- Split Window Vertically: Ctrl + B, then "
+- Switch Between Panes: Ctrl + B, then use arrow keys
+- Resize Pane: Hold Ctrl + B, then hold Ctrl and use arrow keys
+- Close Pane: Type exit in the pane or press Ctrl + D
